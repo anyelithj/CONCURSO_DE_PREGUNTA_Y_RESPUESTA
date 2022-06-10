@@ -1,0 +1,155 @@
+.loading-container{
+    background-color: rgba(0, 0, 0, 0.68);
+    position: fixed;
+    top: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+}
+.loading-animate{
+    background-color: rgba(29, 46, 159, 0.957);
+    width: 6rem;
+    height: 6rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%,-50%);
+    color: black;
+    opacity: 0.9;
+    position: relative;
+    .loading-text{
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        // transform: scale(-50%,-50%);
+    }
+ 
+}
+
+@mixin random-bgr(){
+    background: rgb(random(255), random(255), random(255));
+  }
+
+.answer-list{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto auto;
+    padding: 1rem;
+    box-shadow: 1px 2px 6px #222;
+    height: 30rem;
+    li {
+        text-decoration: none;
+        list-style: none;
+        display: block;
+        padding: 2rem;
+        width: 40rem;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        cursor: pointer;        
+        transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transform: scale(1);
+        box-shadow: 1px 2px 2px #222;
+        &:hover{
+            transform: scale(1.125) !important;
+            box-shadow: 1px 2px 6px #222;
+        }
+        &:nth-child(1){
+            background-color: rgb(37, 82, 130);
+        }
+
+        &:nth-child(2){
+            background-color: rgb(37, 130, 79);
+        }
+
+        &:nth-child(3){
+            background-color: rgb(130, 37, 37);
+        }
+
+        &:nth-child(4){
+            background-color: rgb(91, 37, 130);
+        }
+    }
+}
+
+.category-information{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 3px;
+    right: 3px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #222;
+    color: white;
+    gap: 1rem;
+    .cat-information{
+        // background-color: violet;
+        text-decoration: underline;
+        color: rgb(195, 105, 255);
+        padding: 5px;
+        border-radius: 3px;
+        width: 100%;
+    }
+}
+
+.on-error-answer{
+    background-color: red;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    animation-duration: 0.4s;
+    animation-name: animateOnError;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animateOnError {
+    from{
+        transform: translateY(900px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;        
+    }
+}
+
+.money-calculator{
+    position: fixed;
+    bottom: 1.5rem;
+    left: 3px;
+    gap: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #25824f;
+    box-shadow: 1px 2px 5px rgba(34, 34, 34, 0.618);
+    color: white;
+    .money-img{
+        background-image: url(https://th.bing.com/th/id/OIP.SrrLvdbt96bE92TwNYV3HAAAAA?w=164&h=192&c=7&r=0&o=5&dpr=2.25&pid=1.7);
+        width: 3rem;
+        height: 3rem;
+        background-position: top;
+        background-repeat: no-repeat;
+
+    }
+}

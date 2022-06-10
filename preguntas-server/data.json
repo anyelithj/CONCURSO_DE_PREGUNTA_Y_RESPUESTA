@@ -1,0 +1,363 @@
+[
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497c"
+    },
+    "title": "¿Qué es la malnutrición?",
+    "answers":[
+        {
+            "name" : "Tener una dieta balanceda",
+            "isCorrect": false
+        },
+        {
+            "name" : "Falta de alimentos, proteinas, vitaminas y micro nutrientes",
+            "isCorrect": true
+        },
+        {
+            "name" : "Muchas proteinas, vitaminas y micro nutrientes",
+            "isCorrect": false
+        },
+        {
+            "name" : "Solo comida chatarra",
+            "isCorrect": false
+        }       
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497c"
+    },
+    "title": "¿Consideras importante que el niño y la niña reciban sus vacunas de acuerdo a sus necesidades y edad ? ¿Por Que?",
+    "answers":[
+        {
+            "name" : "Si para prevenir enfermedades en su crecimiento y su desarrollo",
+            "isCorrect": true
+        },
+        {
+            "name" : "No se las puede colocar en cualquier momento",
+            "isCorrect": false
+        },
+        {
+            "name" : "No las vacunas no son necesarias",
+            "isCorrect": false
+        },
+        {
+            "name" : "No tengo ni idea",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497c"
+    },
+    "title": "Resultados muestran que el tiempo al ocio permite que los niños mejoren sus capacidades de adaptación e integración",
+    "answers":[
+        {
+            "name" : "No los niños mejoran sus capacidades comiendo hotDogs 30 veces al día",
+            "isCorrect": false
+        },
+        {
+            "name" : "Es mejor que los niños fumen cigarrillos para aumentar sus capacidades cognitivas",
+            "isCorrect": false
+        },
+        {
+            "name" : "Falso",
+            "isCorrect": false
+        },
+        {
+            "name" : "Verdadero",
+            "isCorrect": true
+        }
+    ]    
+  },  
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497c"
+    },
+    "title": "¿Cuantas dosis y refuerzos de OPV necesita tener el niño en total?",
+    "answers":[
+        {
+            "name" : "4",
+            "isCorrect": false
+        },
+        {
+            "name" : "6",
+            "isCorrect": false
+        },
+        {
+            "name" : "5",
+            "isCorrect": true
+        },
+        {
+            "name" : "3",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497c"
+    },
+    "title": "¿En promedio Cuantas calorias debe de consumir los niños cada día?",
+    "answers":[
+        {
+            "name" : "4",
+            "isCorrect": false
+        },
+        {
+            "name" : "6",
+            "isCorrect": false
+        },
+        {
+            "name" : "5",
+            "isCorrect": false
+        },
+        {
+            "name" : "3",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497d" 
+    },
+    "title": "Cuál es el resultado de esta operación? 125+225",
+    "answers":[
+        {
+            "name" : "350",
+            "isCorrect": true
+        },
+        {
+            "name" : "450",
+            "isCorrect": false
+        },
+        {
+            "name" : "250",
+            "isCorrect": false
+        },
+        {
+            "name" : "150",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497d"
+    },
+    "title": "Escoge el resultado correcto 195 - 225",
+    "answers":[
+        {
+            "name" : "-30",
+            "isCorrect": true
+        },
+        {
+            "name" : "10",
+            "isCorrect": false
+        },
+        {
+            "name" : "20",
+            "isCorrect": false
+        },
+        {
+            "name" : "5",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497d"
+    },
+    "title": "Escoge el resultado correcto 190 / 38",
+    "answers":[
+        {
+            "name" : "15",
+            "isCorrect": false
+        },
+        {
+            "name" : "10",
+            "isCorrect": false
+        },
+        {
+            "name" : "20",
+            "isCorrect": false
+        },
+        {
+            "name" : "5",
+            "isCorrect": true
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497d"
+    },
+    "title": "Escoge el resultado correcto 175 / 25",
+    "answers":[
+        {
+            "name" : "7",
+            "isCorrect": true
+        },
+        {
+            "name" : "5",
+            "isCorrect": false
+        },
+        {
+            "name" : "4",
+            "isCorrect": false
+        },
+        {
+            "name" : "6",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497d"
+    },
+    "title": "Resuelve: 95 x 37",
+    "answers":[
+        {
+            "name" : "3515",
+            "isCorrect": true
+        },
+        {
+            "name" : "ninguno",
+            "isCorrect": false
+        },
+        {
+            "name" : "2654",
+            "isCorrect": false
+        },
+        {
+            "name" : "3685",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497e"
+    },
+    "title": "¿Qué es un Programa?",
+    "answers":[
+        {
+            "name" : "es un código fuente",
+            "isCorrect": true
+        },
+        {
+            "name" : "Los programas informáticos se clasifican en software de sistema y software de aplicación.",
+            "isCorrect": false
+        },
+        {
+            "name" : "una serie de instrucciones previamente codificadas",
+            "isCorrect": false
+        },
+        {
+            "name" : "se encargan de hacer funcionar tu computador",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497e"
+    },
+    "title": "¿Qué es un compilador?",
+    "answers":[
+        {
+            "name" : "herramientas diseñado para realizar tareas",
+            "isCorrect": false
+        },
+        {
+            "name" : "Es un tipo de traductor",
+            "isCorrect": true
+        },
+        {
+            "name" : "herramienta que se utiliza para navegar por internet",
+            "isCorrect": false
+        },
+        {
+            "name" : "se conoce como multitarea.",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497e"
+    },
+    "title": "Para que utilizamos los siguientes signos (**)",
+    "answers":[
+        {
+            "name" : "Potenciación",
+            "isCorrect": true
+        },
+        {
+            "name" : "Multiplicación",
+            "isCorrect": false
+        },
+        {
+            "name" : "División entera",
+            "isCorrect": false
+        },
+        {
+            "name" : "Modulo",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497e"
+    },
+    "title": "En que consiste la asignación",
+    "answers":[
+        {
+            "name" : "unir dos cadenas o mas",
+            "isCorrect": false
+        },
+        {
+            "name" : "asignar una cadena de caracteres a otra",
+            "isCorrect": true
+        },
+        {
+            "name" : "localizar dentro de una cadena, una subcadena",
+            "isCorrect": false
+        },
+        {
+            "name" : "comparar dos cadenas de caracteres",
+            "isCorrect": false
+        }
+    ]    
+  },
+  {
+    "category": {
+      "$oid": "62a142ac81d7e809855b497e"
+    },
+    "title": "¿Qué se puede hacer con las cadenas de caracteres?",
+    "answers":[
+        {
+            "name" : "diferenciar mayúsculas",
+            "isCorrect": false
+        },
+        {
+            "name" : "asignación, concatenación, búsqueda, extracción, comparación",
+            "isCorrect": true
+        },
+        {
+            "name" : "comandos asignados",
+            "isCorrect": false
+        },
+        {
+            "name" : "unir dos o mas cadenas",
+            "isCorrect": false
+        }
+    ]    
+  }
+  
+]
