@@ -243,7 +243,7 @@
     "category": {
       "$oid": "62a142ac81d7e809855b497e"
     },
-    "title": "¿Qué es un Programa?",
+    "title": "¿Qué es Programación?",
     "answers":[
         {
             "name" : "es un código fuente",
@@ -291,7 +291,7 @@
     "category": {
       "$oid": "62a142ac81d7e809855b497e"
     },
-    "title": "Para que utilizamos los siguientes signos (**)",
+    "title": "Para qué utilizamos los siguientes signos (**)",
     "answers":[
         {
             "name" : "Potenciación",
@@ -318,7 +318,7 @@
     "title": "En que consiste la asignación",
     "answers":[
         {
-            "name" : "unir dos cadenas o mas",
+            "name" : "unir dos cadenas o más",
             "isCorrect": false
         },
         {
